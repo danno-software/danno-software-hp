@@ -66,6 +66,61 @@ export default function HomePage() {
             </tbody>
           </table>
         </div>
+
+        <div style={{ marginBottom: '2rem' }}>
+          <h2 style={{ 
+            fontSize: '1.5rem', 
+            marginBottom: '1.5rem',
+            color: '#555'
+          }}>
+            代表プロフィール
+          </h2>
+          
+          <div style={{ marginBottom: '1.5rem' }}>
+            <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem', color: '#666' }}>エンジニア歴</h3>
+            <p style={{ lineHeight: '1.6' }}>7年</p>
+          </div>
+
+          <div style={{ marginBottom: '1.5rem' }}>
+            <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem', color: '#666' }}>知識・技術</h3>
+            <ul style={{ lineHeight: '1.8', paddingLeft: '1.5rem' }}>
+              <li>インフラ基盤の提案・設計・構築・運用</li>
+              <li>パブリッククラウドの知見（AWS / Google Cloud / Microsoft Azure）</li>
+              <li>スクリプト言語による自動化（Python / Shell Script / PowerShell）</li>
+              <li>IaC（Infrastructure as Code）の設計・運用（Terraform / Bicep / CloudFormation）</li>
+              <li>CI/CDパイプラインの構築・運用（Cloud Build / GitLab CI/CD / GitHub Actions / Azure DevOps）</li>
+            </ul>
+          </div>
+
+          <div style={{ marginBottom: '1.5rem' }}>
+            <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem', color: '#666' }}>保有資格</h3>
+            <div style={{ lineHeight: '1.8' }}>
+              <h4 style={{ fontSize: '1rem', marginTop: '0.8rem', marginBottom: '0.3rem', color: '#777' }}>Linux</h4>
+              <ul style={{ paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
+                <li>LinuC Level-1 / Level-2 / Level-3（Security, Virtualization & HA, Mixed Environment）</li>
+              </ul>
+              
+              <h4 style={{ fontSize: '1rem', marginTop: '0.8rem', marginBottom: '0.3rem', color: '#777' }}>サーバー・データベース</h4>
+              <ul style={{ paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
+                <li>CompTIA Server+</li>
+                <li>ORACLE MASTER Bronze / Silver DBA</li>
+              </ul>
+              
+              <h4 style={{ fontSize: '1rem', marginTop: '0.8rem', marginBottom: '0.3rem', color: '#777' }}>クラウド</h4>
+              <ul style={{ paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
+                <li>AWS 認定（Cloud Practitioner / Solutions Architect Associate・Professional / Developer Associate / DevOps Engineer Professional）</li>
+                <li>Google Cloud Certified - Professional Cloud Architect</li>
+                <li>Microsoft Certified（Azure Fundamentals / Azure AI Fundamentals / Security, Compliance, and Identity Fundamentals）</li>
+              </ul>
+              
+              <h4 style={{ fontSize: '1rem', marginTop: '0.8rem', marginBottom: '0.3rem', color: '#777' }}>プログラミング・AI</h4>
+              <ul style={{ paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
+                <li>Python 3 エンジニア認定（基礎 / データ分析）</li>
+                <li>JDLA Deep Learning for GENERAL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         
         <div style={{ 
           textAlign: 'right', 
