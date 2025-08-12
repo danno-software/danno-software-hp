@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Danno Software',
-  description: 'Welcome to Danno Software Homepage',
+  title: '株式会社団野ソフトウェア',
+  description: '株式会社団野ソフトウェアの公式ホームページ',
 }
 
 export default function RootLayout({
